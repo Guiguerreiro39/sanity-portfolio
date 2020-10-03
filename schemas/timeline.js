@@ -42,7 +42,7 @@ export default {
             type: "string",
         },
         {
-            name: "initialData",
+            name: "initialDate",
             title: "Initial Date",
             type: "date",
             options: {
