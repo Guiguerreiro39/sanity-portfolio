@@ -14,15 +14,6 @@ export default {
             type: "text",
         },
         {
-            name: "slug",
-            title: "Slug",
-            type: "slug",
-            options: {
-                source: "title",
-                maxLength: 96,
-            },
-        },
-        {
             name: "mainImage",
             title: "Main image",
             type: "image",
@@ -39,6 +30,11 @@ export default {
         {
             name: "github",
             title: "Github",
+            type: "url",
+        },
+        {
+            name: "demo",
+            title: "Demo",
             type: "url",
         },
     ],
